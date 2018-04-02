@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>Broccolib</name>
-	<comment></comment>
+	<comment>Broccolib testing framework</comment>
 	<projects>
 	</projects>
 	<buildSpec>
