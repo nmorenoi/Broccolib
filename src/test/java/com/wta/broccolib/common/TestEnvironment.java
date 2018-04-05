@@ -41,11 +41,6 @@ public class TestEnvironment {
 		this.m_aImageComparisonManager = new ImageComparisonManager();
 	}
 
-	public WebDriver getDriver ()
-	{
-		return this.m_aDriver;
-	}
-	
 	public void maximize() {
 		this.m_aDriver.manage().window().maximize();
 	}
@@ -56,6 +51,10 @@ public class TestEnvironment {
 
 	public void tearDown() {
 		this.m_aDriver.quit();
+	}
+
+	public WebDriver getDriver() {
+		return this.m_aDriver;
 	}
 
 	public WaitElementManager getWaitElementManager() {
